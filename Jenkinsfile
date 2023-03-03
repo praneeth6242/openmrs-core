@@ -1,5 +1,5 @@
 pipeline{ 
-   agent any 
+   agent { label JAVA_NODE8 }
    stages{
      stage('git clone'){ 
         steps{
