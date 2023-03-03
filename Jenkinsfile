@@ -4,6 +4,6 @@ node('JAVA_NODE8'){
         branch: 'scripted' 
   } 
   stage('build'){
-    sh script: 'mvn package'
+    sh  'mvn package'
   }  
 }
