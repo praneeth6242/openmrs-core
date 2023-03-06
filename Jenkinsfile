@@ -1,4 +1,4 @@
-node('JAVA_NODE8'){
+node('JAVA_NODE1'){
   stage('clone'){
     git url: 'https://github.com/praneeth6242/openmrs-core.git',
         branch: 'scripted' 
